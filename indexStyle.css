@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.game-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #3498db, #2c3e50);
+}
+
+.drop-container {
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    margin: 20px;
+}
+
+.car {
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+}
+
+#score {
+    font-size: 24px;
+    font-weight: bold;
+    color: #27ae60;
+    margin-top: 20px;
+}
+
+button {
+    background-color: #27ae60;
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #218c53;
+}

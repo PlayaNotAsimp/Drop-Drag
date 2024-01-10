@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="indexStyle.css">
+    <title>Car Drag and Drop Game</title>
+</head>
+<body>
+    <div class="game-container">
+        <div id="div1" class="drop-container" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <img src="images/car1.png" draggable="true" ondragstart="drag(event)" id="drag1" class="car" alt="Car 1">
+            <img src="images/car2.png" draggable="true" ondragstart="drag(event)" id="drag2" class="car" alt="Car 2">
+            <img src="images/car3.png" draggable="true" ondragstart="drag(event)" id="drag3" class="car" alt="Car 3">
+            <img src="images/car4.png" draggable="true" ondragstart="drag(event)" id="drag4" class="car" alt="Car 4">
+            <img src="images/car5.png" draggable="true" ondragstart="drag(event)" id="drag5" class="car" alt="Car 5">
+            <img src="images/car6.png" draggable="true" ondragstart="drag(event)" id="drag6" class="car" alt="Car 6">
+            <img src="images/car7.png" draggable="true" ondragstart="drag(event)" id="drag7" class="car" alt="Car 7">
+            <img src="images/car8.png" draggable="true" ondragstart="drag(event)" id="drag8" class="car" alt="Car 8">
+            <img src="images/car9.png" draggable="true" ondragstart="drag(event)" id="drag9" class="car" alt="Car 9">
+        </div>
+        <div id="div2" class="drop-container" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <p>Drop cars here</p>
+            <p id="score">Score: 0</p>
+            <button onclick="resetGame()">Reset Game</button>
+        </div>
+    </div>
+    <script src="indexScript.js"></script>
+</body>
+</html>
